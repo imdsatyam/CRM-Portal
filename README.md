@@ -1,70 +1,86 @@
-# Getting Started with Create React App
+# CRM System
+Welcome to the **CRM System** project! This repository contains the source code for a comprehensive Customer Relationship Management system designed to streamline task management, team collaboration, and project tracking.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Table of Contents
+- [About the Project](#about-the-project)
+- [Features](#features)
+- [Folder Structure](#folder-structure)
+- [Technologies Used](#technologies-used)
+- [Setup Instructions](#setup-instructions)
+- [Environment Variables](#environment-variables)
+- [Usage](#usage)
+- [License](#license)
 
-## Available Scripts
+## About the Project
+The **CRM System** is a powerful application tailored for businesses and teams to manage their workflow efficiently. It simplifies complex processes by offering a centralized platform to track tasks, monitor progress, and collaborate seamlessly. 
 
-In the project directory, you can run:
+### Key Objectives:
+- Enhance productivity through task prioritization and streamlined workflows.
+- Foster team collaboration with real-time updates and notifications.
+- Enable easy tracking of projects and progress with intuitive dashboards.
 
-### `npm start`
+## Features
+- **Task Management**: Create, assign, and manage tasks with due dates and priorities.
+- **Project Tracking**: Visualize project timelines and track progress with dynamic boards and charts.
+- **Team Collaboration**: Communicate with your team using comments, activity logs, and notifications.
+- **Customizable Workflows**: Define and manage workflows based on your business needs.
+- **Analytics and Reporting**: Generate reports to analyze performance and productivity metrics.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Folder Structure
+- **`crm-frontend`**  
+  Contains the frontend source code, providing a user-friendly interface to interact with the CRM system.
+- **`crm-backend`**  
+  Contains the backend source code, managing APIs, authentication, and database operations.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Technologies Used
+### Frontend:
+- React.js
+- HTML, CSS, JavaScript
+- Libraries/Frameworks: Tailwind CSS, Bootstrap
 
-### `npm test`
+### Backend:
+- Node.js with Express.js
+- Database: MongoDB/PostgreSQL/MySQL
+- Authentication: JWT for secure login and session management
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Setup Instructions
+Follow these steps to set up and run the project on your local machine:
 
-### `npm run build`
+### Prerequisites:
+1. Install **Node.js** and **npm/yarn**.
+2. Set up a database (e.g., MongoDB/PostgreSQL).
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Steps:
+#### 1. Clone the Repository:
+git clone https://github.com/your-username/crm-system.git
+cd crm-system
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+#### 2. Setup Frontend:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- cd portfolio-frontend
+- npm install
+- npm start
+This starts the development server for the frontend.
 
-### `npm run eject`
+#### 3. Setup Backend:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- cd portfolio-backend
+- npm install
+- npm run dev
+This starts the development server for the frontend.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Environment Variables
+Create .env files for both frontend and backend as needed.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Example for the backend:
+- PORT=5000
+- DB_URI=mongodb://localhost:27017/portfolio
+- JWT_SECRET=your-secret-key
+- Ensure to update these values based on your local or production environment.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Usage
+1. Open the frontend in your browser at http://localhost:3000 (default port).
+2. The backend runs at http://localhost:5000 (or the port specified in .env).
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## License
+This project is licensed under the MIT License.
