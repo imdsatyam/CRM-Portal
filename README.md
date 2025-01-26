@@ -1,5 +1,5 @@
-# CRM System
-Welcome to the **CRM System** project! This repository contains the source code for a comprehensive Customer Relationship Management system designed to streamline task management, team collaboration, and project tracking.
+# CRM Portal
+Welcome to the **CRM Portal** project! This repository contains the source code for a comprehensive Customer Relationship Management system designed to streamline task management, team collaboration, and project tracking.
 
 ## Table of Contents
 - [About the Project](#about-the-project)
@@ -12,7 +12,7 @@ Welcome to the **CRM System** project! This repository contains the source code 
 - [License](#license)
 
 ## About the Project
-The **CRM System** is a powerful application tailored for businesses and teams to manage their workflow efficiently. It simplifies complex processes by offering a centralized platform to track tasks, monitor progress, and collaborate seamlessly. 
+The **CRM Portal** is a powerful application tailored for businesses and teams to manage their workflow efficiently. It simplifies complex processes by offering a centralized platform to track tasks, monitor progress, and collaborate seamlessly. 
 
 ### Key Objectives:
 - Enhance productivity through task prioritization and streamlined workflows.
