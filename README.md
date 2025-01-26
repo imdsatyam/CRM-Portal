@@ -52,7 +52,7 @@ Follow these steps to set up and run the project on your local machine:
 
 ### Steps:
 #### 1. Clone the Repository:
-git clone https://github.com/your-username/crm-system.git
+git clone https://github.com/imdsatyam/CRM-Portal
 cd crm-system
 
 #### 2. Setup Frontend:
